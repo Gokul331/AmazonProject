@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site</title>
+    <link rel="shortcut icon" href="./asset/images/amazon-favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./asset/css/amazon.css">
+    <!----   ion icon link   -->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header>
+        <div class="nav-left">
+            <img class='logo-box' src="./asset/images/amazon-logo-white.png" alt="Amazon">
+        </div>
+        <div class="nav-middle">
+             <input type="search" class="search-bar" placeholder="Search Amazon">
+             <button class="search-btn"><img src="./asset/icons/search-icon.png" alt=""></button>
+        </div>
+        <div class="nav-right">
+             <div class="return-order-label">
+                 <p class="return-label">Returns</p>
+                 <p class="order-label">& Orders</p>
+             </div>
+             <div class="cart-btn">
+                 <img src="./asset/icons/cart-icon.png" alt="">
+                 <div class="cart-count">0</div>
+                 <span class="cart-label">Cart</span>
+             </div>
+             </div>
+    </header>
+    <main>
+        <div class="product-container"></div>
+    </main>
+    <script src="./asset/data/product.js"></script>
+    <script src="./asset/javascript/amazon.js"></script>
+</body>
+</html>
